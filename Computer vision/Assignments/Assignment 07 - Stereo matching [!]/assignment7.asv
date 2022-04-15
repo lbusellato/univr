@@ -1,0 +1,27 @@
+% assignment9.m
+% Author: Lorenzo Busellato
+%
+% This script implements the computation of the disparity map of a pair of
+% rectified stereo images and the reconstruction of the cloud of associated
+% 3D points.
+
+%% SETUP
+clearvars;
+close all;
+clc;
+% Load in the full perspective matrices
+P1 = load('./perspective_matrix_1.mat');
+P2 = load('./perspective_matrix_2.mat');
+% Load in the images
+img1 = imread('./img1.jpg');
+img2 = imread('./img2.jpg');
+% Show the images
+fig1 = figure();
+title('Left image');
+hold on;
+imshow(img1);
+fig2 = figure();
+title('Right image');
+hold on;
+imshow(img2);
+

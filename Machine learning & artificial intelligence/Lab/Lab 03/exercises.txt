@@ -1,0 +1,3 @@
+2 solved: https://colab.research.google.com/drive/1UN3Jo2qDeL2mqKjDlPAP4i9ylkHZFhIG?usp=sharing
+3a: https://colab.research.google.com/drive/14tHz3tNfN3Lum1fEWYqHCosbGRtTU8Be?usp=sharing
+3b todo: https://colab.research.google.com/drive/1rg3C4J4qNv4QDCtL-62Ucfr-KJQ1P8HK?usp=sharing
