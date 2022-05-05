@@ -1,0 +1,2 @@
+Lab7 - Pipelines: https://colab.research.google.com/drive/112GHBbtawzRVFs9ryq-aVCZx-bflm0s0?usp=sharing
+Lab8.1 - Linear Regression: https://colab.research.google.com/drive/1e59oM1F7QwzsvpuEhjHduj8Dz2iVlJki?usp=sharing
