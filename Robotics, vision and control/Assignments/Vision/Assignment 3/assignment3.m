@@ -19,7 +19,7 @@ v0 = 239.5; % v coordinate of the principal point
 cameraParams = [fu fv u0 v0];
 
 %% LOAD AND DISPLAY RANGE/RGB IMAGE
-imageNo = 3; % Change here to switch image (NB: edit also depth threshold!)
+imageNo = 2; % Change here to switch image (NB: edit also depth threshold!)
 fig1 = figure();
 depthImg = imread(strcat('data/',num2str(imageNo),'_depth.png'));
 subplot(121); imshow(depthImg);
@@ -37,4 +37,5 @@ scatter3(vertices(:,1),vertices(:,2),vertices(:,3),6,color,'.');
 xlabel('X'); ylabel('Y'); zlabel('Z'); title('3D point cloud');
 
 %% SAVE POINT CLOUD
+exportMeshToPly(vertices,[],color,strcat(num2str(imageNo),'_point_cloud'))
 exportMeshToPly(vertices,faces,color,strcat(num2str(imageNo),'_mesh'))

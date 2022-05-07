@@ -36,11 +36,15 @@ function [vertices, faces, color] = generateMesh(rgbImg, depthImg, cameraParams,
     B = double(rgbImg(:,:,3));
     color = [R(mask) G(mask) B(mask)]/255;
 
+    fig2 = figure();
+    scatter3(vertices(:,1),vertices(:,2),vertices(:,3),6,color,'.');
+    xlabel('X'); ylabel('Y'); zlabel('Z'); title('3D point cloud');
+
     % Create a neighbor index map
     % TODO: faster preprocessing of indexes?
     ind = reshape(1:U*V, U, V);
     near_ind = ind(mask); % Mask the indexes actually present in the mesh
-    indexes = int64(mask);
+    indexes = zeros(U,V);
     for i = 1:V
         for j = 1:U
             if mask(j,i) ~= 0
