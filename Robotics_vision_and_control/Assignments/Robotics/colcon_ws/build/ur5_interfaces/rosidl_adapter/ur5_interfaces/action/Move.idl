@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur5_interfaces/action/Move.action
+// generated code does not contain a copyright notice
+
+
+module ur5_interfaces {
+  module action {
+    struct Move_Goal {
+      float width;
+
+      float speed;
+    };
+    struct Move_Result {
+      boolean status;
+    };
+    struct Move_Feedback {
+      boolean done;
+    };
+  };
+};

@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:32:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces/CMakeFiles/CMakeOutput.log".
+make: *** [Makefile:748: cmake_check_build_system] Error 1

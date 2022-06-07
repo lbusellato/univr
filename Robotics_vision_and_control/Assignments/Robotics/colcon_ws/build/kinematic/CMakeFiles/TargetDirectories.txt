@@ -1,0 +1,11 @@
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic/CMakeFiles/install/strip.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic/CMakeFiles/install/local.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic/CMakeFiles/edit_cache.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic/CMakeFiles/test.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic/CMakeFiles/forward_kinematic_node.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic/CMakeFiles/install.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic/CMakeFiles/list_install_components.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic/CMakeFiles/rebuild_cache.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic/CMakeFiles/inverse_kinematic_node.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic/CMakeFiles/kinematic_uninstall.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic/CMakeFiles/uninstall.dir

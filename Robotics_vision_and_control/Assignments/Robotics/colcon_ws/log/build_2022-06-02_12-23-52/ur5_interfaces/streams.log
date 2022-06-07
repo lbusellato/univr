@@ -1,0 +1,136 @@
+[0.014s] Invoking command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --build /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces -- -j4 -l4
+[0.067s] [  3%] Built target ur5_interfaces__cpp
+[0.068s] [ 12%] Built target ur5_interfaces__rosidl_generator_c
+[0.098s] [ 22%] Built target ur5_interfaces__rosidl_typesupport_introspection_cpp
+[0.099s] [ 32%] Built target ur5_interfaces__rosidl_typesupport_c
+[0.099s] [ 41%] Built target ur5_interfaces__rosidl_typesupport_introspection_c
+[0.104s] [ 51%] Built target ur5_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.121s] [ 61%] Built target ur5_interfaces__rosidl_typesupport_cpp
+[0.132s] [ 70%] Built target ur5_interfaces__rosidl_typesupport_fastrtps_c
+[0.152s] [ 70%] Built target ur5_interfaces
+[0.173s] [ 74%] Built target ur5_interfaces__py
+[0.198s] [ 80%] Built target ur5_interfaces__python
+[0.226s] [ 87%] Built target ur5_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.235s] [ 93%] Built target ur5_interfaces__rosidl_typesupport_c__pyext
+[0.236s] [100%] Built target ur5_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.247s] Invoked command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --build /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces -- -j4 -l4
+[0.304s] Invoking command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --install /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces
+[0.312s] -- Install configuration: ""
+[0.313s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ament_index/resource_index/rosidl_interfaces/ur5_interfaces
+[0.313s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces
+[0.313s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/msg
+[0.313s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.313s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv
+[0.313s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/gripper.h
+[0.314s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/add_three_ints.h
+[0.314s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail
+[0.314s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__functions.c
+[0.314s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__struct.h
+[0.314s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__functions.h
+[0.314s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__type_support.h
+[0.314s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__type_support.h
+[0.315s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__struct.h
+[0.315s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__functions.h
+[0.315s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__functions.c
+[0.315s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/environment/library_path.sh
+[0.315s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/environment/library_path.dsv
+[0.315s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/libur5_interfaces__rosidl_generator_c.so
+[0.315s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces
+[0.315s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/msg
+[0.315s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.316s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv
+[0.316s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail
+[0.316s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[0.316s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__rosidl_typesupport_fastrtps_c.h
+[0.316s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/libur5_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.316s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces
+[0.316s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/msg
+[0.317s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.317s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv
+[0.317s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail
+[0.317s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/dds_fastrtps
+[0.317s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.317s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__rosidl_typesupport_fastrtps_cpp.hpp
+[0.318s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/libur5_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.318s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces
+[0.318s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/msg
+[0.318s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.318s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv
+[0.318s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail
+[0.318s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__rosidl_typesupport_introspection_c.h
+[0.318s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__type_support.c
+[0.318s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[0.319s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__type_support.c
+[0.319s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/libur5_interfaces__rosidl_typesupport_introspection_c.so
+[0.319s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/libur5_interfaces__rosidl_typesupport_c.so
+[0.319s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces
+[0.319s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv
+[0.319s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail
+[0.319s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__builder.hpp
+[0.319s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__traits.hpp
+[0.319s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__struct.hpp
+[0.319s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__traits.hpp
+[0.320s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__builder.hpp
+[0.320s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__struct.hpp
+[0.320s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/gripper.hpp
+[0.320s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/add_three_ints.hpp
+[0.320s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces
+[0.320s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv
+[0.320s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail
+[0.320s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.320s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/add_three_ints__type_support.cpp
+[0.320s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__rosidl_typesupport_introspection_cpp.hpp
+[0.320s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/include/ur5_interfaces/srv/detail/gripper__type_support.cpp
+[0.321s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/libur5_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.321s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/libur5_interfaces__rosidl_typesupport_cpp.so
+[0.321s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/environment/pythonpath.sh
+[0.321s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/environment/pythonpath.dsv
+[0.321s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages/ur5_interfaces/__init__.py
+[0.353s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages/ur5_interfaces/srv
+[0.353s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages/ur5_interfaces/srv/_gripper.py
+[0.353s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages/ur5_interfaces/srv/_add_three_ints_s.c
+[0.353s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages/ur5_interfaces/srv/_add_three_ints.py
+[0.353s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages/ur5_interfaces/srv/__init__.py
+[0.353s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages/ur5_interfaces/srv/_gripper_s.c
+[0.354s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages/ur5_interfaces/ur5_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.354s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages/ur5_interfaces/ur5_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.355s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages/ur5_interfaces/ur5_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.355s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/libur5_interfaces__python.so
+[0.356s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/srv/Gripper.idl
+[0.356s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/srv/Gripper.srv
+[0.356s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/srv/Gripper_Request.msg
+[0.356s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/srv/Gripper_Response.msg
+[0.356s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ament_index/resource_index/package_run_dependencies/ur5_interfaces
+[0.356s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ament_index/resource_index/parent_prefix_path/ur5_interfaces
+[0.356s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/environment/ament_prefix_path.sh
+[0.357s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/environment/ament_prefix_path.dsv
+[0.357s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/environment/path.sh
+[0.357s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/environment/path.dsv
+[0.357s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/local_setup.bash
+[0.357s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/local_setup.sh
+[0.357s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/local_setup.zsh
+[0.357s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/local_setup.dsv
+[0.357s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/package.dsv
+[0.357s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ament_index/resource_index/packages/ur5_interfaces
+[0.358s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfaces__rosidl_generator_cExport.cmake
+[0.358s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.358s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.358s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.358s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfaces__rosidl_typesupport_cExport.cmake
+[0.358s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.358s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfaces__rosidl_generator_cppExport.cmake
+[0.358s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.359s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.359s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfaces__rosidl_typesupport_cppExport.cmake
+[0.359s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.359s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.359s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.359s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.360s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.360s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.360s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.360s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.360s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfacesConfig.cmake
+[0.360s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/cmake/ur5_interfacesConfig-version.cmake
+[0.360s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/share/ur5_interfaces/package.xml
+[0.362s] Invoked command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --install /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces

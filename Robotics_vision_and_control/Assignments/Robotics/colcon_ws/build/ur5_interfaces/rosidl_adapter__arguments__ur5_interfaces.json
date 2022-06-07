@@ -1,0 +1,6 @@
+{
+  "package_name": "ur5_interfaces",
+  "non_idl_tuples": [
+    "/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/src/ur5_interfaces:action/Move.action"
+  ]
+}

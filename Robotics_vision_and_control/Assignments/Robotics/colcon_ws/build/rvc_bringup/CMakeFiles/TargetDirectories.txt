@@ -1,0 +1,9 @@
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/rvc_bringup/CMakeFiles/install/strip.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/rvc_bringup/CMakeFiles/install/local.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/rvc_bringup/CMakeFiles/install.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/rvc_bringup/CMakeFiles/list_install_components.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/rvc_bringup/CMakeFiles/rebuild_cache.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/rvc_bringup/CMakeFiles/edit_cache.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/rvc_bringup/CMakeFiles/test.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/rvc_bringup/CMakeFiles/rvc_bringup_uninstall.dir
+/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/rvc_bringup/CMakeFiles/uninstall.dir

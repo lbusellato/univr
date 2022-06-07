@@ -1,0 +1,6 @@
+source;share/ur5_pnp/hook/pythonpath.ps1
+source;share/ur5_pnp/hook/pythonpath.dsv
+source;share/ur5_pnp/hook/pythonpath.sh
+source;share/ur5_pnp/hook/ament_prefix_path.ps1
+source;share/ur5_pnp/hook/ament_prefix_path.dsv
+source;share/ur5_pnp/hook/ament_prefix_path.sh

@@ -1,0 +1,220 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_description
+-- Install configuration: ""
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/launch
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/launch/ur5_wsg50.launch.py
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/launch/ur5_wsg50.launch.py.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/wsg_50
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/wsg_50/realsense_wrist_support.urdf.xacro
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/wsg_50/wsg_50_support.urdf.xacro
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/wsg_50/realsense_wrist_support.urdf.xacro.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/wsg_50/wsg_50.urdf.xacro
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/wsg_50/wsg_50_support.urdf.xacro.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/wsg_50/wsg_50.urdf.xacro.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/sensors.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/robot
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/robot/ur5_wsg50.urdf
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/robot/ur5_wsg50.urdf.xacro.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/robot/Materials.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/robot/ur5_wsg50.urdf.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/robot/ur5_wsg50.urdf.xacro
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/robot/Materials
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/robot/Materials/Default.mat.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/robot/Materials/Default.mat
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/robot.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/wsg_50.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/sensors
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/sensors/intel_d435.urdf.xacro.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/sensors/intel_d435.urdf.xacro
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5/ur.transmission.xacro
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5/ur.transmission.xacro.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5/ur.gazebo.xacro
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5/ur.gazebo.xacro.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5/config
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5/config/ur5_calibration.yaml
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5/config/ur5_calibration.yaml.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5/ur5.urdf.xacro.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5/config.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/urdf/ur5/ur5.urdf.xacro
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/GUIDE_WSG50_110_3.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/GUIDE_WSG50_110.stl.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF.dae
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_2.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_3.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/GUIDE_WSG50_110.dae.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_7.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG50_110.prefab.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_6.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_8.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG50_110_1.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_10.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_4.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_1.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG50_110.stl.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_3.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/GUIDE_WSG50_110_1.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG50_110.prefab
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_1.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF.stl
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF.stl.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/GUIDE_WSG50_110_2.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG50_110_1.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_8.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_7.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_2.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG50_110.stl
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/GUIDE_WSG50_110_2.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/GUIDE_WSG50_110_1.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_9.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/GUIDE_WSG50_110_3.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_5.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_4.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/GUIDE_WSG50_110.stl
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_10.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_6.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG50_110_0.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_9.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF_5.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/GUIDE_WSG50_110.dae
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG50_110_0.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50/WSG-FMF.dae.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/sensors.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/wsg_50.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/sensors
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/sensors/intel_realsense_depth_camera_d435.dae
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/sensors/intel_realsense_depth_camera_d435.dae.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/sensors/intel_realsense_depth_camera_d435.stl
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/sensors/intel_realsense_depth_camera_d435.stl.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/base.stl
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist2_0.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm.prefab.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm_4.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/base.stl.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist1.prefab
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm_0.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist3_0.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist2.stl
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist3_0.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/base.prefab.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/shoulder.prefab.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist2.prefab.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist3.prefab.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/shoulder_0.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist2.prefab
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm.stl
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm_4.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm_2.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist2_1.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist1.stl
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm_1.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm.stl
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist3.prefab
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm_0.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/shoulder_1.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm.prefab
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm.prefab
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist1_0.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/base.prefab
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist2.stl.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm_1.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm_1.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm_3.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist3.stl.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/base_0.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist1_1.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm_0.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist1_1.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/base_1.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist3.stl
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm.stl.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm_1.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm_3.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/shoulder.stl.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm.prefab.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm.stl.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm_2.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm_3.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist2_1.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/base_0.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist1.prefab.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist2_0.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist3_1.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist1_0.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/shoulder.prefab
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm_2.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm_3.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/shoulder_0.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/shoulder.stl
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/shoulder_1.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/upperarm_0.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist3_1.asset
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/base_1.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/forearm_2.asset.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/collision/wrist1.stl.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/upperarm.dae
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/wrist3.dae.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/shoulder.dae
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/wrist2.dae.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/wrist3.dae
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/forearm.dae
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/base.dae
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/forearm.dae.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/wrist1.dae.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/wrist1.dae
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/shoulder.dae.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/upperarm.dae.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/wrist2.dae
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual/base.dae.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/meshes/ur5/visual.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/rviz
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/rviz/ur5_rviz.rviz.meta
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/rviz/ur5_rviz.rviz
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ament_index/resource_index/package_run_dependencies/ur5_description
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ament_index/resource_index/parent_prefix_path/ur5_description
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/environment/ament_prefix_path.sh
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/environment/ament_prefix_path.dsv
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/environment/path.sh
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/environment/path.dsv
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/local_setup.bash
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/local_setup.sh
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/local_setup.zsh
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/local_setup.dsv
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/package.dsv
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ament_index/resource_index/packages/ur5_description
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/cmake/ur5_descriptionConfig.cmake
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/cmake/ur5_descriptionConfig-version.cmake
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_description/share/ur5_description/package.xml

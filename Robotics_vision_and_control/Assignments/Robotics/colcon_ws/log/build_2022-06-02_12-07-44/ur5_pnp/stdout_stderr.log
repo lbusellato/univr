@@ -1,0 +1,55 @@
+running egg_info
+creating ../../build/ur5_pnp/ur5_pnp.egg-info
+writing ../../build/ur5_pnp/ur5_pnp.egg-info/PKG-INFO
+writing dependency_links to ../../build/ur5_pnp/ur5_pnp.egg-info/dependency_links.txt
+writing entry points to ../../build/ur5_pnp/ur5_pnp.egg-info/entry_points.txt
+writing requirements to ../../build/ur5_pnp/ur5_pnp.egg-info/requires.txt
+writing top-level names to ../../build/ur5_pnp/ur5_pnp.egg-info/top_level.txt
+writing manifest file '../../build/ur5_pnp/ur5_pnp.egg-info/SOURCES.txt'
+reading manifest file '../../build/ur5_pnp/ur5_pnp.egg-info/SOURCES.txt'
+writing manifest file '../../build/ur5_pnp/ur5_pnp.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build
+creating /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib
+creating /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp
+copying ur5_pnp/minimal_service.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp
+copying ur5_pnp/main.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp
+copying ur5_pnp/__init__.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp
+creating /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/ur5
+copying ur5_pnp/ur5/ur5.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/ur5
+copying ur5_pnp/ur5/__init__.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/ur5
+creating /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/service
+copying ur5_pnp/service/minimal_service.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/service
+copying ur5_pnp/service/__init__.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/service
+running install
+running install_lib
+creating /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp
+creating /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/service
+copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/service/minimal_service.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/service
+copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/service/__init__.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/service
+copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/minimal_service.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp
+copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/main.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp
+copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/__init__.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp
+creating /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/ur5
+copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/ur5/ur5.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/ur5
+copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/ur5/__init__.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/ur5
+byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/service/minimal_service.py to minimal_service.cpython-38.pyc
+byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/service/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/minimal_service.py to minimal_service.cpython-38.pyc
+byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/main.py to main.cpython-38.pyc
+byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/ur5/ur5.py to ur5.cpython-38.pyc
+byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/ur5/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/share/ament_index
+creating /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/share/ament_index/resource_index
+creating /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/share/ament_index/resource_index/packages
+copying resource/ur5_pnp -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/share/ament_index/resource_index/packages
+copying package.xml -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/share/ur5_pnp
+running install_egg_info
+Copying ../../build/ur5_pnp/ur5_pnp.egg-info to /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp-0.0.0-py3.8.egg-info
+running install_scripts
+Installing gripper_service script to /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/ur5_pnp
+Installing main script to /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/ur5_pnp
+writing list of installed files to '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/install.log'

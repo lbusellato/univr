@@ -1,0 +1,2 @@
+Lab 11 - Pseudo Labeling with CNNs: https://colab.research.google.com/drive/1neSO9PTJuHv9ANpJZrVk1T3jZv8uq-Fy?usp=sharing
+Cool blog showing activation maps by layer: http://everettsprojects.com/2018/01/17/mnist-visualization.html

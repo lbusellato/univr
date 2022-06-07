@@ -1,0 +1,31 @@
+[0.735s] Invoking command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/src/ur5_pnp': PYTHONPATH=/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ur5_pnp build --build-base /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build install --prefix /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp --record /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/install.log --single-version-externally-managed
+[0.974s] running egg_info
+[0.975s] writing ../../build/ur5_pnp/ur5_pnp.egg-info/PKG-INFO
+[0.975s] writing dependency_links to ../../build/ur5_pnp/ur5_pnp.egg-info/dependency_links.txt
+[0.975s] writing entry points to ../../build/ur5_pnp/ur5_pnp.egg-info/entry_points.txt
+[0.975s] writing requirements to ../../build/ur5_pnp/ur5_pnp.egg-info/requires.txt
+[0.975s] writing top-level names to ../../build/ur5_pnp/ur5_pnp.egg-info/top_level.txt
+[1.008s] reading manifest file '../../build/ur5_pnp/ur5_pnp.egg-info/SOURCES.txt'
+[1.009s] writing manifest file '../../build/ur5_pnp/ur5_pnp.egg-info/SOURCES.txt'
+[1.009s] running build
+[1.009s] running build_py
+[1.009s] copying ur5_pnp/ur5/ur5.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/ur5
+[1.009s] copying ur5_pnp/service/gripper_client.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/service
+[1.010s] copying ur5_pnp/service/gripper_service.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/service
+[1.010s] running install
+[1.011s] running install_lib
+[1.012s] copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/service/gripper_client.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/service
+[1.012s] copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/service/gripper_service.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/service
+[1.012s] copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/ur5/ur5.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/ur5
+[1.013s] byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/service/gripper_client.py to gripper_client.cpython-38.pyc
+[1.014s] byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/service/gripper_service.py to gripper_service.cpython-38.pyc
+[1.015s] byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/ur5/ur5.py to ur5.cpython-38.pyc
+[1.015s] running install_data
+[1.015s] running install_egg_info
+[1.017s] removing '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp-0.0.0-py3.8.egg-info' (and everything under it)
+[1.018s] Copying ../../build/ur5_pnp/ur5_pnp.egg-info to /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp-0.0.0-py3.8.egg-info
+[1.019s] running install_scripts
+[1.035s] Installing gripper_service script to /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/ur5_pnp
+[1.035s] Installing main script to /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/ur5_pnp
+[1.036s] writing list of installed files to '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/install.log'
+[1.058s] Invoked command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/src/ur5_pnp' returned '0': PYTHONPATH=/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_interfaces/lib/python3.8/site-packages:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ur5_pnp build --build-base /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build install --prefix /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp --record /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/install.log --single-version-externally-managed

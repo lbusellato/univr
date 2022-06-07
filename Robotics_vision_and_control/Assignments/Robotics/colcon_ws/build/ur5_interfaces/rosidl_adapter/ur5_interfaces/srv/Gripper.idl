@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur5_interfaces/srv/Gripper.srv
+// generated code does not contain a copyright notice
+
+
+module ur5_interfaces {
+  module srv {
+    struct Gripper_Request {
+      float width;
+    };
+    struct Gripper_Response {
+      boolean status;
+    };
+  };
+};

@@ -1,51 +1,48 @@
 % assignment6.m
 % Author: Lorenzo Busellato, 2022
 %
-% This script implements the computation of a 3D trajectory 
+% This script implements the computation of the shortest trajectory on a 
+% spherical surface between three random points, while mantaining the
+% normal component of the Frenet frame orthogonal to the sphere's surface.
 %
 
 %% SETUP
 clearvars;
 clc;
-all_fig = findall(0, 'type', 'figure');
-close(all_fig)
+close all;
+% Sphere center - random
+P0 = randi(10, 1, 3); 
+% Sphere radius - random
+R = randi(10, 1, 1) + 1;
 
 %% PLOT SPHERE AND RANDOM POINTS
-P0 = [1 0 3]; % Sphere center
-R = 3; % Sphere radius
+% Generate the sphere's coordinates
+S = generateSphere(P0, R);
 fig1 = figure();
-[X1 Y1 Z1] = sphere(50);
-X = (R*X1)+P0(1,1);
-Y = (R*Y1)+P0(1,2);
-Z = (R*Z1)+P0(1,3);
-surf(X,Y,Z); axis equal;
-hold on;
+surf(S.X, S.Y, S.Z); 
 xlabel('X'); ylabel('Y'); zlabel('Z');
-% Pick three random points
-i = randi([1 51], 1, 3);
-j = randi([1 51], 1, 3);
-P = [X1(i(1), j(1)) Y1(i(1), j(1)) Z1(i(1), j(1));
-     X1(i(2), j(2)) Y1(i(2), j(2)) Z1(i(2), j(2));
-     X1(i(3), j(3)) Y1(i(3), j(3)) Z1(i(3), j(3))];
-scatter3(R*P(1,1)+P0(1,1),R*P(1,2)+P0(1,2),R*P(1,3)+P0(1,3),'LineWidth',2,'MarkerEdgeColor','r','MarkerFaceColor','r');
-scatter3(R*P(2,1)+P0(1,1),R*P(2,2)+P0(1,2),R*P(2,3)+P0(1,3),'LineWidth',2,'MarkerEdgeColor','g','MarkerFaceColor','g');
-scatter3(R*P(3,1)+P0(1,1),R*P(3,2)+P0(1,2),R*P(3,3)+P0(1,3),'LineWidth',2,'MarkerEdgeColor','b','MarkerFaceColor','b');
+title('Geodesic curves - Frenet frames'); 
+colormap bone; axis equal; hold on;
+% Pick n random points
+i = randi([1 size(S.X, 1)], 1, 3);
+j = randi([1 size(S.X, 1)], 1, 3);
+P = [S.X(i(1), j(1)) S.X(i(2), j(2)) S.X(i(3), j(3));
+     S.Y(i(1), j(1)) S.Y(i(2), j(2)) S.Y(i(3), j(3));
+     S.Z(i(1), j(1)) S.Z(i(2), j(2)) S.Z(i(3), j(3))];
+% Plot the points
+scatter3(P(1, :), P(2, :), P(3, :),'r','filled'); hold on;
 
-for i = 1:3
-    if i == 3
-        P1 = P(i,:); P2 = P(1,:);
-    else
-        P1 = P(i,:); P2 = P(i+1,:);
-    end
-    w = P2-(dot(P2,P1))*P1;
-    u = w./norm(w);
-    c = acos(dot(P2,P1));
-    t = 0:0.01:c;
-    alpha = @(t)cos(t)'*P1+sin(t)'*u;
-    geodesic = alpha(t);
-    plot3(R*geodesic(:,1)+P0(1,1),R*geodesic(:,2)+P0(1,2),R*geodesic(:,3)+P0(1,3),'LineWidth',2)
+%% GEODESICS & FRENET FRAMES
+[G1, F1] = geodesic(P(:, 1), P(:, 2), P0', pi / 24);
+[G2, F2] = geodesic(P(:, 1), P(:, 3), P0', pi / 24);
+[G3, F3] = geodesic(P(:, 3), P(:, 2), P0', pi / 24);
+G = [G1; G2; G3];
+scatter3(G(:,1),G(:,2),G(:,3),'.b'); hold on;
+F = cat(3, F1, F2, F3);
+for i=1:size(F,3)
+    quiver3(G(i,1),G(i,2),G(i,3),F(1,1,i),F(2,1,i),F(3,1,i),'Color','red')
+    quiver3(G(i,1),G(i,2),G(i,3),F(1,2,i),F(2,2,i),F(3,2,i),'Color','green')
+    quiver3(G(i,1),G(i,2),G(i,3),F(1,3,i),F(2,3,i),F(3,3,i),'Color','blue')
 end
-
-
 
 

@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000539] (trac_ik_lib) JobQueued: {'identifier': 'trac_ik_lib', 'dependencies': OrderedDict()}
+[0.001190] (trac_ik_lib) JobStarted: {'identifier': 'trac_ik_lib'}
+[0.011361] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'cmake'}
+[0.011862] (trac_ik_lib) Command: {'cmd': ['/usr/bin/cmake', '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/src/trac_ik_lib', '-DCMAKE_INSTALL_PREFIX=/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib'], 'cwd': '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lorenzobusellato'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '2070'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/lorenzobusellato'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1840'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=490fe3f213373e08fef9bba56297b510'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'lorenzobusellato'), ('JOURNAL_STREAM', '8:48779'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'lorenzobusellato'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/lorenzobusellato/.local/bin:/home/lorenzobusellato/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lorenzobusellato:@/tmp/.ICE-unix/2104,unix/lorenzobusellato:/tmp/.ICE-unix/2104'), ('INVOCATION_ID', '91e85396887b41d5a1636a06f0341462'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7904680c_e113_4324_9d60_70664d3e3ce4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3437'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b9d6a541-3612-4756-aae0-7e6b48fea01d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=490fe3f213373e08fef9bba56297b510'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.030109] (trac_ik_lib) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.053599] (trac_ik_lib) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.053830] (trac_ik_lib) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099982] (-) TimerEvent: {}
+[0.128016] (trac_ik_lib) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)\n'}
+[0.130839] (trac_ik_lib) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[0.132050] (trac_ik_lib) StdoutLine: {'line': b'-- Found kdl_parser: 2.5.0 (/opt/ros/galactic/share/kdl_parser/cmake)\n'}
+[0.142709] (trac_ik_lib) StdoutLine: {'line': b'-- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.190088] (trac_ik_lib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.196385] (trac_ik_lib) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.200093] (-) TimerEvent: {}
+[0.273768] (trac_ik_lib) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.300199] (-) TimerEvent: {}
+[0.304792] (trac_ik_lib) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.382610] (trac_ik_lib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400299] (-) TimerEvent: {}
+[0.442620] (trac_ik_lib) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.445304] (trac_ik_lib) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.464897] (trac_ik_lib) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.465810] (trac_ik_lib) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.500431] (-) TimerEvent: {}
+[0.532739] (trac_ik_lib) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.532941] (trac_ik_lib) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600566] (-) TimerEvent: {}
+[0.601000] (trac_ik_lib) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.601220] (trac_ik_lib) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.654835] (trac_ik_lib) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.655037] (trac_ik_lib) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.700737] (-) TimerEvent: {}
+[0.720714] (trac_ik_lib) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.721785] (trac_ik_lib) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800828] (-) TimerEvent: {}
+[0.865634] (trac_ik_lib) StdoutLine: {'line': b'-- Found urdf: 2.5.2 (/opt/ros/galactic/share/urdf/cmake)\n'}
+[0.900962] (-) TimerEvent: {}
+[0.903071] (trac_ik_lib) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.975362] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.976321] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.976420] (trac_ik_lib) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.977058] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.977704] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.981158] (trac_ik_lib) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.989475] (trac_ik_lib) StdoutLine: {'line': b'-- Generating done\n'}
+[0.991056] (trac_ik_lib) StdoutLine: {'line': b'-- Build files have been written to: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib\n'}
+[0.996732] (trac_ik_lib) CommandEnded: {'returncode': 0}
+[0.997448] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'build'}
+[0.998144] (trac_ik_lib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib', '--', '-j4', '-l4'], 'cwd': '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lorenzobusellato'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '2070'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/lorenzobusellato'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1840'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=490fe3f213373e08fef9bba56297b510'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'lorenzobusellato'), ('JOURNAL_STREAM', '8:48779'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'lorenzobusellato'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/lorenzobusellato/.local/bin:/home/lorenzobusellato/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lorenzobusellato:@/tmp/.ICE-unix/2104,unix/lorenzobusellato:/tmp/.ICE-unix/2104'), ('INVOCATION_ID', '91e85396887b41d5a1636a06f0341462'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7904680c_e113_4324_9d60_70664d3e3ce4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3437'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b9d6a541-3612-4756-aae0-7e6b48fea01d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=490fe3f213373e08fef9bba56297b510'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.001123] (-) TimerEvent: {}
+[1.038134] (trac_ik_lib) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target trac_ik_lib\x1b[0m\n'}
+[1.101235] (-) TimerEvent: {}
+[1.104134] (trac_ik_lib) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/kdl_tl.cpp.o\x1b[0m\n'}
+[1.107965] (trac_ik_lib) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/nlopt_ik.cpp.o\x1b[0m\n'}
+[1.109965] (trac_ik_lib) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/trac_ik.cpp.o\x1b[0m\n'}
+[1.201336] (-) TimerEvent: {}
+[1.301724] (-) TimerEvent: {}
+[1.402041] (-) TimerEvent: {}
+[1.502440] (-) TimerEvent: {}
+[1.603285] (-) TimerEvent: {}
+[1.703747] (-) TimerEvent: {}
+[1.804159] (-) TimerEvent: {}
+[1.904490] (-) TimerEvent: {}
+[2.004936] (-) TimerEvent: {}
+[2.105342] (-) TimerEvent: {}
+[2.205758] (-) TimerEvent: {}
+[2.306177] (-) TimerEvent: {}
+[2.406587] (-) TimerEvent: {}
+[2.507024] (-) TimerEvent: {}
+[2.607346] (-) TimerEvent: {}
+[2.707806] (-) TimerEvent: {}
+[2.808238] (-) TimerEvent: {}
+[2.908780] (-) TimerEvent: {}
+[3.009193] (-) TimerEvent: {}
+[3.109546] (-) TimerEvent: {}
+[3.209873] (-) TimerEvent: {}
+[3.310243] (-) TimerEvent: {}
+[3.410551] (-) TimerEvent: {}
+[3.510946] (-) TimerEvent: {}
+[3.611282] (-) TimerEvent: {}
+[3.711608] (-) TimerEvent: {}
+[3.811918] (-) TimerEvent: {}
+[3.912233] (-) TimerEvent: {}
+[4.012553] (-) TimerEvent: {}
+[4.112868] (-) TimerEvent: {}
+[4.213182] (-) TimerEvent: {}
+[4.313485] (-) TimerEvent: {}
+[4.413802] (-) TimerEvent: {}
+[4.514112] (-) TimerEvent: {}
+[4.614424] (-) TimerEvent: {}
+[4.714737] (-) TimerEvent: {}
+[4.815044] (-) TimerEvent: {}
+[4.915356] (-) TimerEvent: {}
+[5.015644] (-) TimerEvent: {}
+[5.115921] (-) TimerEvent: {}
+[5.216202] (-) TimerEvent: {}
+[5.316524] (-) TimerEvent: {}
+[5.416826] (-) TimerEvent: {}
+[5.517143] (-) TimerEvent: {}
+[5.617457] (-) TimerEvent: {}
+[5.717752] (-) TimerEvent: {}
+[5.818047] (-) TimerEvent: {}
+[5.918336] (-) TimerEvent: {}
+[6.018630] (-) TimerEvent: {}
+[6.118927] (-) TimerEvent: {}
+[6.219255] (-) TimerEvent: {}
+[6.319548] (-) TimerEvent: {}
+[6.419845] (-) TimerEvent: {}
+[6.520142] (-) TimerEvent: {}
+[6.620440] (-) TimerEvent: {}
+[6.720730] (-) TimerEvent: {}
+[6.821010] (-) TimerEvent: {}
+[6.921303] (-) TimerEvent: {}
+[7.021593] (-) TimerEvent: {}
+[7.121892] (-) TimerEvent: {}
+[7.222184] (-) TimerEvent: {}
+[7.322467] (-) TimerEvent: {}
+[7.422753] (-) TimerEvent: {}
+[7.523046] (-) TimerEvent: {}
+[7.623330] (-) TimerEvent: {}
+[7.723623] (-) TimerEvent: {}
+[7.823964] (-) TimerEvent: {}
+[7.924248] (-) TimerEvent: {}
+[8.024530] (-) TimerEvent: {}
+[8.124810] (-) TimerEvent: {}
+[8.225046] (-) TimerEvent: {}
+[8.325322] (-) TimerEvent: {}
+[8.425627] (-) TimerEvent: {}
+[8.525919] (-) TimerEvent: {}
+[8.626200] (-) TimerEvent: {}
+[8.726475] (-) TimerEvent: {}
+[8.826705] (-) TimerEvent: {}
+[8.927011] (-) TimerEvent: {}
+[9.027247] (-) TimerEvent: {}
+[9.127537] (-) TimerEvent: {}
+[9.227822] (-) TimerEvent: {}
+[9.328103] (-) TimerEvent: {}
+[9.428407] (-) TimerEvent: {}
+[9.528713] (-) TimerEvent: {}
+[9.628989] (-) TimerEvent: {}
+[9.652179] (trac_ik_lib) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libtrac_ik_lib.so\x1b[0m\n'}
+[9.729155] (-) TimerEvent: {}
+[9.829494] (-) TimerEvent: {}
+[9.929785] (-) TimerEvent: {}
+[9.988459] (trac_ik_lib) StdoutLine: {'line': b'[100%] Built target trac_ik_lib\n'}
+[9.998826] (trac_ik_lib) CommandEnded: {'returncode': 0}
+[10.022759] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'install'}
+[10.029981] (-) TimerEvent: {}
+[10.033109] (trac_ik_lib) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib'], 'cwd': '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lorenzobusellato'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '2070'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/lorenzobusellato'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1840'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=490fe3f213373e08fef9bba56297b510'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'lorenzobusellato'), ('JOURNAL_STREAM', '8:48779'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'lorenzobusellato'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/lorenzobusellato/.local/bin:/home/lorenzobusellato/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lorenzobusellato:@/tmp/.ICE-unix/2104,unix/lorenzobusellato:/tmp/.ICE-unix/2104'), ('INVOCATION_ID', '91e85396887b41d5a1636a06f0341462'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7904680c_e113_4324_9d60_70664d3e3ce4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3437'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b9d6a541-3612-4756-aae0-7e6b48fea01d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=490fe3f213373e08fef9bba56297b510'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[10.042688] (trac_ik_lib) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.042917] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.sh\n'}
+[10.043121] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.dsv\n'}
+[10.043252] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include\n'}
+[10.043356] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik\n'}
+[10.043452] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/dual_quaternion.h\n'}
+[10.043548] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/trac_ik.hpp\n'}
+[10.043641] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/nlopt_ik.hpp\n'}
+[10.043702] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/visibility_control.hpp\n'}
+[10.043764] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/math3d.h\n'}
+[10.043851] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/kdl_tl.hpp\n'}
+[10.043920] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/lib/libtrac_ik_lib.so\n'}
+[10.047284] (trac_ik_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/lib/libtrac_ik_lib.so" to ""\n'}
+[10.047454] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/ament_index/resource_index/package_run_dependencies/trac_ik_lib\n'}
+[10.047615] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/ament_index/resource_index/parent_prefix_path/trac_ik_lib\n'}
+[10.047790] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.sh\n'}
+[10.047884] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.dsv\n'}
+[10.047997] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/path.sh\n'}
+[10.048176] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/path.dsv\n'}
+[10.048304] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.bash\n'}
+[10.048410] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.sh\n'}
+[10.048498] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.zsh\n'}
+[10.048613] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.dsv\n'}
+[10.048731] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/package.dsv\n'}
+[10.048913] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/ament_index/resource_index/packages/trac_ik_lib\n'}
+[10.049095] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport.cmake\n'}
+[10.049225] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport-noconfig.cmake\n'}
+[10.049356] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.049478] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.049603] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig.cmake\n'}
+[10.049703] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig-version.cmake\n'}
+[10.049822] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/package.xml\n'}
+[10.051578] (trac_ik_lib) CommandEnded: {'returncode': 0}
+[10.097512] (trac_ik_lib) JobEnded: {'identifier': 'trac_ik_lib', 'rc': 0}
+[10.098166] (-) EventReactorShutdown: {}

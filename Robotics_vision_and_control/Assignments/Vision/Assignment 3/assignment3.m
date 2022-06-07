@@ -1,41 +1,41 @@
 % assignment3.m
 % Author: Lorenzo Busellato, 2022
 %
-% Reconstruction of a mesh from range images. Range images
-% acquired from http://redwood-data.org/3dscan/dataset.html
-%
+% Computation of the canonical orientation.
 
 %% SETUP
 clc;
 close all;
 clearvars;
 addpath('data/');
+% Load point cloud and downsample to 10% of the original points
+ptCloud = pcread("data/SamPointCloud.ply");
+ptCloud = pcdownsample(ptCloud, "random", 0.1);
+P = ptCloud.Location;
 
-%% INTERNAL CAMERA PARAMETERS
-fu = 525; % u focal lenght in pixels
-fv = 525; % v focal lenght in pixels
-u0 = 319.5; % u coordinate of the principal point
-v0 = 239.5; % v coordinate of the principal point
-cameraParams = [fu fv u0 v0];
+%% EXTRINSIC CENTROID
+X = ptCloud.Location(:,1);
+Y = ptCloud.Location(:,2);
+Z = ptCloud.Location(:,3);
+P0 = [mean(X) mean(Y) mean(Z)];
+figure(1);
+scatter3(X, Y, Z, 'r', 'filled'); axis equal; hold on;
+scatter3(P0(1), P0(2), P0(3), 'g', 'filled'); hold on;
 
-%% LOAD AND DISPLAY RANGE/RGB IMAGE
-imageNo = 2; % Change here to switch image (NB: edit also depth threshold!)
-fig1 = figure();
-depthImg = imread(strcat('data/',num2str(imageNo),'_depth.png'));
-subplot(121); imshow(depthImg);
-title('Range image');
-rgbImg = imread(strcat('data/',num2str(imageNo),'_rgb.jpg'));
-subplot(122); imshow(rgbImg);
-title('RGB image');
+%% CANONICAL BASIS
+% Computation of the covariance matrix
+dX = bsxfun(@minus, P, P0);
+C = dX' * dX;
+% PCA - The columns of U are, in order, d1, d2 and d3
+[U,~]=svd(C);
 
-%% MESH RECONSTRUCTION
-% Indicatively 1800 for img 1, 2000 for img 2 and 2000 for img 3
-depthThreshold = 2000;
-[vertices, faces, color] = generateMesh(rgbImg, depthImg, cameraParams, depthThreshold);
-fig2 = figure();
-scatter3(vertices(:,1),vertices(:,2),vertices(:,3),6,color,'.');
-xlabel('X'); ylabel('Y'); zlabel('Z'); title('3D point cloud');
-
-%% SAVE POINT CLOUD
-exportMeshToPly(vertices,[],color,strcat(num2str(imageNo),'_point_cloud'))
-exportMeshToPly(vertices,faces,color,strcat(num2str(imageNo),'_mesh'))
+%% CANONICAL ORIENTATION
+% Rotation matrix
+R = U';
+% Translation vector
+t = -U'*P0';
+Pc = R*P' - t;
+Pc0 = R*P0' - t;
+scatter3(Pc(1,:), Pc(2,:), Pc(3,:), 'b', 'filled'); hold on;
+scatter3(Pc0(1), Pc0(2), Pc0(3), 'g', 'filled'); hold on;
+title('Zephyr orientation (red) vs canonical orientation (blue), centroids in green');

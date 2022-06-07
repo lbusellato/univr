@@ -1,0 +1,6 @@
+float32 width
+float32 speed
+---
+bool status
+---
+bool done

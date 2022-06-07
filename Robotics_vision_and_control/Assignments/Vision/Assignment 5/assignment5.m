@@ -1,7 +1,7 @@
-% assignment5.m
+% assignment6.m
 % Author: Lorenzo Busellato, 2022
 %
-% Use of morphological operators to infer shape characteristics.
+% 3D analysis pipeline
 %
 
 %% SETUP
@@ -9,89 +9,246 @@ clc;
 close all;
 clearvars;
 addpath('data/');
+addpath('scripts/');
+addpath('cloud/');
+% Needed to keep the results of K-means consistent
+rng(0); 
+% Choose which image (edit depth thresholds as well!!!)
+imNo = 3;
+% Choose whether or not to apply K-means clustering
+useKMeans = true;
 
 %% LOAD AND DISPLAY IMAGE 
-img = imread('data/2.jpg');
-I = im2gray(img);
-fig1 = figure(); imshow(img); title('Original image'); drawnow();
+rgb = imread(['data/' num2str(imNo) '_rgb.jpg']);
+depth = imread(['data/' num2str(imNo) '_depth.png']);
+fig1 = figure(); imshowpair(rgb,depth,'montage');
+title('Original vs depth image'); drawnow;
 
-%% BACKGROUND SUBTRACTION
-% Subtract the background by image opening
-se = strel('disk',200); % 120 for image 1, 200 for image 2
-bg = imopen(I,se);
-fig2 = figure(); imshow(bg); title('Extracted background'); drawnow();
-% Stretch histogram -> improve black<->white distribution
-I_nobg = imadjust(I - bg);
-fig3 = figure(); imshow(I_nobg); title('Removed background'); drawnow();
-
-%% IMAGE BINARIZATION
-I_bin = imbinarize(I_nobg);
-% Remove noise by removing small artefacts
-I_bin = bwareaopen(I_bin,100); % 50 for image 1, 100 for image 2
-% Dilate the image to improve object connectivity
-se = strel('disk',37); % 10 for image 1, 37 for image 2
-I_bin = imdilate(I_bin,se);
-I_bin = imerode(I_bin,se);
-fig4 = figure(); imshow(I_bin); title('Binarized image'); drawnow();
-
-%% CONNECTED COMPONENTS LABELING
-cc = bwconncomp(I_bin,4);
-% Color code the objects
-labeled = labelmatrix(cc);
-I_label = label2rgb(labeled,'spring','c','shuffle');
-fig5 = figure(); imshow(I_label); title('Labeled image'); drawnow();
-
-%% OBJECT CHARACTERIZATION
-I_props = regionprops(cc, ...
-    'Centroid','MajorAxisLength','MinorAxisLength','Circularity','BoundingBox');
-fig6 = figure(); imshow(img); title('Object characterization'); drawnow();
-% Sort the properties wrt (rounded) circularity
-T = struct2table(I_props);
-T.Circularity = round(T.Circularity,1);
-radii = [];
-centers = [];
-biggestCoinIndex = 0;
-smallestCoinIndex = 0;
-maxRadius = 0;
-minRadius = inf;
-for i = 1:size(T,1)
-    if T.Circularity(i) == 1
-        % It's a coin
-        centers = [centers; T.Centroid(i,:)];
-        radius = mean([T.MajorAxisLength(i) T.MinorAxisLength(i)])/2;
-        radii = [radii; radius];
-        % Keep track of which coin is the biggest
-        if radius > maxRadius
-            maxRadius = radius;
-            biggestCoinIndex = i;
-        elseif radius < minRadius
-            minRadius = radius;
-            smallestCoinIndex = i;
-        end
-    else
-        % It isn't a coin
-        rectangle('Position',T.BoundingBox(i,:),'EdgeColor','r','LineWidth',2);
-    end
+%% DEPTH THRESHOLDING
+if imNo == 1
+    mask = depth >= 600 & depth <= 645;
+elseif imNo == 2
+    mask = depth >= 690 & depth <= 770;
+else 
+    mask = depth >= 600 & depth <= 800;
 end
-% Plot circles around the coins
-viscircles(centers,radii);
-% Plot all objects' centroids
-hold on; scatter(T.Centroid(:,1),T.Centroid(:,2),300,'r.');
-% Label the objects
-for i = 1:size(T,1)
-    if T.Circularity(i) == 1
-        % It's a coin
-        if i == biggestCoinIndex
-            % Is it the biggest?
-            text(T.Centroid(i,1),T.Centroid(i,2),'\rightarrow BIGGEST COIN','Color','r');
-        elseif i == smallestCoinIndex
-            % Is it the smallest?
-            text(T.Centroid(i,1),T.Centroid(i,2),'\rightarrow SMALLEST COIN','Color','r');
-        else
-            text(T.Centroid(i,1),T.Centroid(i,2),'\rightarrow COIN','Color','r');
-        end
-    else
-        % It isn't a coin
-        text(T.Centroid(i,1),T.Centroid(i,2),'\rightarrow USB DRIVE','Color','r');
-    end
+% NB no image binarization needed since I work on the mask
+mask = imopen(mask,strel('disk',10));
+fig2 = figure(); imshow(mask);
+title('Extracted shape'); drawnow;
+
+%% SHAPE REFINEMENT - K-MEANS CLUSTERING
+% Perform k-means clustering if needed, e.g. when the object is on a
+% surface that doesn't get masked away, i.e. in all cases where depth
+% thresholding isn't enough
+% if useKMeans
+%     mask = kMeansMask(rgb,mask,3);
+%     fig3 = figure(); imshow(mask);
+%     title('K-means mask'); drawnow;
+% end
+C = double(reshape(rgb, [numel(rgb(:,:,1)) 3]));
+C = C(reshape(mask, [size(C,1) 1]),:);
+figure, scatter3(C(:,1),C(:,2),C(:,3),5,C/255);
+% collapse in 2D  on the smallest eigenvectors
+[U,E] = eig(cov(C));
+[~,i] = sort(diag(E));
+U = U(:,i);
+U = U(:,1:2);
+Y = (C-mean(C,1))*U;
+figure, scatter(Y(:,1),Y(:,2),5,C/255);
+% perform k-means on the colors
+n_objs = 3;
+[idxs,~] = kmeans(Y,n_objs,'MaxIter',100,'Start','plus');
+figure, scatter(Y(:,1),Y(:,2),5,idxs);
+figure, scatter3(C(:,1),C(:,2),C(:,3),5,idxs);
+% extract masks
+masks = false([size(mask), n_objs]);
+valid_pix = 1:numel(mask);
+valid_pix = valid_pix(reshape(mask,[1, numel(mask)]))';
+for i=1:n_objs
+    tmp = false(size(mask));
+    tmp(valid_pix(idxs == i)) = true;
+    masks(:,:,i) = tmp;
 end
+% show masks
+for i=1:n_objs
+    figure, imshow(masks(:,:,i)), title(sprintf('Mask %d',i));
+end
+clear n_objs
+% select best one
+[~,i] = max(sum(masks,[1 2]));
+mask = masks(:,:,i);
+figure, imshow(mask), title('Best mask');
+
+%% SHAPE REFINEMENT - BOUNDARY & CONNECTED COMPONENTS EXTRACTION
+% IMprove connectivity with image opening and fill the holes
+mask = bwareaopen(mask,1000);
+mask = imfill(mask,'holes');
+% Extract the connected components
+cc = bwconncomp(mask,4);
+props = regionprops('table',cc,'Area');
+% The component most likely to be the object is the one with the biggest
+% area
+[~, i] = max(props.Area);
+mask(:,:) = false;
+mask(cc.PixelIdxList{i}) = true;
+% Extract the boundary
+boundary = bwboundaries(mask);
+boundary = boundary{1};  
+mask_boundary = false(size(mask));
+for i=1:length(boundary)
+    mask_boundary(boundary(i,1),boundary(i,2)) = true;
+end
+% Show the boundary
+show_mask = uint8(cat(3,mask,mask,mask))*255;
+tmp = show_mask(:,:,1);
+tmp(mask_boundary) = 255;
+show_mask(:,:,1) = tmp;
+tmp = show_mask(:,:,1);
+tmp(mask_boundary) = 0;
+show_mask(:,:,2) = tmp;
+tmp = show_mask(:,:,1);
+tmp(mask_boundary) = 0;
+show_mask(:,:,3) = tmp;
+% Show the boundary
+fig4 = figure(); imshow(show_mask);
+title('Boundary'); drawnow;
+% Show the result of the masking in color
+fig5 = figure(); imshow(rgb .* uint8(repmat(mask,[1 1 3])));
+title('Masked image'); drawnow;
+
+%% 3D POINT CLOUD
+% Internal camera parameters
+fu = 525; % u focal lenght in pixels
+fv = 525; % v focal lenght in pixels
+u0 = 319.5; % u coordinate of the principal point
+v0 = 239.5; % v coordinate of the principal point
+cameraParams = [fu fv u0 v0];
+% Generate and plot the 3D point cloud
+[cloud,cloud_rgb] = generatePointCloud(rgb,uint16(mask).*depth,cameraParams);
+scatter3(cloud(:,1),cloud(:,2),cloud(:,3), 6, cloud_rgb, '.');
+xlabel('X'); ylabel('Y'); zlabel('Z'); title('3D point cloud'); axis equal;
+% Save the result
+exportMeshToPly(cloud,[],cloud_rgb,['cloud/' num2str(imNo) '_cloud']);
+
+%% CENTROID AND ORIENTATION
+cc = bwconncomp(mask, 4);
+props = regionprops('table',cc,'Centroid','Orientation');
+c = props.Centroid;
+d = props.Orientation;
+% Compute some points along the main orientation
+m = -tand(d);
+D = [-10:2:-1 2:2:10];
+x = c(1) + D/sqrt(1+abs(m));
+y = m*(x - c(1)) + c(2);
+p = [x; y]';
+% Plot the points on the 2D image
+fig6 = figure(); imshow(mask); hold on;
+scatter(c(1),c(2),'r','filled');
+scatter(p(:,1),p(:,2),'b','filled');
+title('Main orientation'); drawnow;
+% Plot the points in the 3D cloud of points
+M = uint16([c; p]);
+p_mask = false(size(mask));
+p_mask(sub2ind(size(mask),M(:,2),M(:,1))) = true;
+[orientation_cloud,~] = generatePointCloud(rgb,uint16(p_mask).*depth,cameraParams);
+fig7 = figure();
+scatter3(cloud(:,1),cloud(:,2),cloud(:,3), 6, cloud_rgb, '.');
+xlabel('X'); ylabel('Y'); zlabel('Z'); title('Main orientation'); 
+hold on;
+scatter3(orientation_cloud(:,1),orientation_cloud(:,2),orientation_cloud(:,3), 18, 'r', 'filled');
+% Fit a line to the points, which is the main direction
+[m,q] = fitLine(orientation_cloud);
+% Plot the line
+x = -1.25*max(cloud(:,1)):1.25*max(cloud(:,1));
+L = (m.*x + q)';
+hold on
+scatter3(L(:,1),L(:,2),L(:,3),5,'filled'); axis equal;
+
+%% PLANE FITTING
+% Compute the plane centroid and normal
+[c,n] = fitPlane(cloud);
+% Plot the plane
+fig8 = figure(); 
+scatter3(cloud(:,1),cloud(:,2),cloud(:,3), 6, cloud_rgb, '.');
+xlabel('X'); ylabel('Y'); zlabel('Z'); title('Plane fit'); axis equal;
+hold on;
+% Create plane mesh
+[X, Y] = meshgrid(1.25*min(cloud(:,1)):8:1.25*max(cloud(:,1)), ...
+    1.25*min(cloud(:,2)):8:1.25*max(cloud(:,2)));
+Z = -(n(1)*X + n(2)*Y - n'*c) / n(3);
+mesh(X, Y, Z, 'FaceAlpha', 0); axis equal;
+
+%% OBJECT ORIENTATION
+% The third direction is given by n x m
+l = cross(n,m);
+% Compute the frame by normalizing all three directions, scaled for
+% visibility
+O = 50.*[n/norm(n),m/norm(m),l/norm(l)];
+% Plot the frame
+fig9 = figure(); 
+scatter3(cloud(:,1),cloud(:,2),cloud(:,3), 6, cloud_rgb, '.');
+xlabel('X'); ylabel('Y'); zlabel('Z'); title('Object orientation'); 
+axis equal; hold on;
+quiver3(c(1),c(2),c(3),O(1,1),O(2,1),O(3,1),'LineWidth',3,'Color','red');
+quiver3(c(1),c(2),c(3),O(1,2),O(2,2),O(3,2),'LineWidth',3,'Color','green');
+quiver3(c(1),c(2),c(3),O(1,3),O(2,3),O(3,3),'LineWidth',3,'Color','blue');
+
+%% FIT BOUNDARIES
+% Recover the 3D coordinates of the boundary
+boundary3D = generatePointCloud(rgb,uint16(mask_boundary).*depth,cameraParams);
+fig10 = figure();
+scatter3(cloud(:,1),cloud(:,2),cloud(:,3), 6, cloud_rgb, '.');
+xlabel('X'); ylabel('Y'); zlabel('Z'); title('Boundary line fitting'); 
+hold on;
+scatter3(boundary3D(:,1),boundary3D(:,2),boundary3D(:,3),5,'filled');
+% Apply ransac four times, removing each time the inliers of the previous
+inlier = false([size(boundary3D,1) 1]);
+sampleNumber = 5;
+maxIterations = 1000; 
+threshold = 4;
+linesM = zeros(3,4);
+linesQ = zeros(3,4);
+for i = 1:4
+    [m,q,inliers] = ransacFitLine(boundary3D(~inlier,:), ...
+                                  sampleNumber, ...
+                                  maxIterations, ...
+                                  threshold);
+    linesM(:,i) = m; linesQ(:,i) = q;
+    inlier(~inlier) = inliers;
+    % Plot the line
+    x = -2*max(cloud(:,1)):2*max(cloud(:,1));
+    L = (m.*x + q)';
+    hold on;
+    scatter3(L(:,1),L(:,2),L(:,3),5,'filled'); 
+end
+axis equal;
+
+%% CORNER DETECTION
+intersectingLines = [];
+for i = 1:4
+    for j = 1:4
+        if j ~= i
+            a = angleBetweenLines(linesM(:,i),linesM(:,j));
+            if a >= 85 && a <= 95
+                intersectingLines = [intersectingLines; i j];
+            end
+        end
+    end
+end   
+intersectingLines = unique(sort(intersectingLines,2),'rows');
+corners = [];
+for i = 1:4
+    q1 = linesQ(:,intersectingLines(i,1));
+    m1 = linesM(:,intersectingLines(i,1));
+    q2 = linesQ(:,intersectingLines(i,2));
+    m2 = linesM(:,intersectingLines(i,2));
+    corners = [corners; lineIntersection(q1,m1,q2,m2)'];
+end
+hold on;
+scatter3(corners(:,1),corners(:,2),corners(:,3),35,'filled','MarkerEdgeColor','b','MarkerFaceColor','b'); 
+
+
+
+
+

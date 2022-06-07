@@ -1,0 +1,11 @@
+[0.015s] Invoking command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --build /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces -- -j4 -l4
+[0.036s] CMake Error at CMakeLists.txt:32:
+[0.036s]   Parse error.  Expected "(", got newline with text "
+[0.037s] 
+[0.037s]   ".
+[0.037s] 
+[0.037s] 
+[0.037s] -- Configuring incomplete, errors occurred!
+[0.037s] See also "/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces/CMakeFiles/CMakeOutput.log".
+[0.038s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.040s] Invoked command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --build /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces -- -j4 -l4

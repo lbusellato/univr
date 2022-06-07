@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<robot name="UR5" xmlns:xacro="http://wiki.ros.org/xacro">
+
+    <!-- Include UR-5 ARM -->
+    <xacro:include filename="$(find ur5_description)/urdf/ur5/ur5.urdf.xacro"/>
+      <!-- Import Schunk WSG-50 -->
+	<xacro:include filename="$(find ur5_description)/urdf/wsg_50/wsg_50_support.urdf.xacro"/>
+	<xacro:include filename="$(find ur5_description)/urdf/wsg_50/wsg_50.urdf.xacro"/>
+    <xacro:include filename="$(find ur5_description)/urdf/sensors/intel_d435.urdf.xacro" />
+
+    <!-- Import realsense wrist support-->
+	<xacro:include filename="$(find ur5_description)/urdf/wsg_50/realsense_wrist_support.urdf.xacro"/>
+
+    <xacro:arg name="prefix" default="robot_"/>
+    <xacro:arg name="load_kinematics_file" default="true"/>
+    <xacro:property name="PI" value="3.1415926535897931"/>
+
+    <xacro:macro name="ur5_wsg50" params="prefix load_kinematics_file">
+
+        <!-- UR-5 ARM -->
+        <xacro:if value="$(arg load_kinematics_file)">
+            <xacro:ur5_robot prefix="$(arg prefix)arm_" joint_limited="true"
+                shoulder_pan_lower_limit="${-pi}" shoulder_pan_upper_limit="${pi}"
+                wrist_3_lower_limit="${-pi}" wrist_3_upper_limit="${pi}"
+                kinematics_file="${load_yaml('$(find ur5_description)/urdf/ur5/config/ur5_calibration.yaml')}">
+            </xacro:ur5_robot>
+        </xacro:if>
+
+        <!-- Schunk Support -->
+        <xacro:wsg50_support prefix="$(arg prefix)wsg50_support" parent="$(arg prefix)wrist_rgbd_support_link"/>
+            <!-- <origin xyz="0.0 -0.01 0.007" rpy="0 0 0.0"/>
+        </xacro:wsg50_support> -->
+
+        <!-- Schunk WSG-50 -->
+        <xacro:wsg_50_xacro name="$(arg prefix)wsg50" parent="$(arg prefix)wsg50_support_link" finger_length="0.023" finger_tip="0"/>
+            <!-- <origin xyz="0.0 0.01 0.005" rpy="0 0 ${pi/2}"/>
+        </xacro:wsg_50_xacro> -->
+
+        <!-- Intel Realsense wrist support-->
+        <xacro:realsense_wrist_support prefix="$(arg prefix)wrist_rgbd_support" parent="$(arg prefix)arm_tool0"/>
+            <!-- <origin xyz="0.0 0.0 0.00" rpy="0 0 0.0"/>
+        </xacro:realsense_wrist_support> -->
+
+        <!-- Intel Realsense -->
+        <xacro:sensor_r430 prefix="$(arg prefix)realsense" parent="$(arg prefix)arm_tool0" prefix_topic="realsense"/>
+            <!-- <origin xyz="0.0515 0.0 0.065" rpy="${pi} ${-pi/2} 0"/>
+        </xacro:sensor_r430> -->
+
+    </xacro:macro>
+
+    <xacro:ur5_wsg50 prefix="$(arg prefix)" load_kinematics_file="$(arg load_kinematics_file)"/>
+
+</robot>

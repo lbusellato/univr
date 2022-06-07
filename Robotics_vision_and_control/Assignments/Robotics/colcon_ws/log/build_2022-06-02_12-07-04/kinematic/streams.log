@@ -1,0 +1,96 @@
+[0.035s] Invoking command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/src/kinematic -DCMAKE_INSTALL_PREFIX=/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic
+[0.115s] -- The C compiler identification is GNU 9.4.0
+[0.197s] -- The CXX compiler identification is GNU 9.4.0
+[0.205s] -- Check for working C compiler: /usr/bin/cc
+[0.320s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.322s] -- Detecting C compiler ABI info
+[0.440s] -- Detecting C compiler ABI info - done
+[0.461s] -- Detecting C compile features
+[0.462s] -- Detecting C compile features - done
+[0.466s] -- Check for working CXX compiler: /usr/bin/c++
+[0.599s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.600s] -- Detecting CXX compiler ABI info
+[0.723s] -- Detecting CXX compiler ABI info - done
+[0.746s] -- Detecting CXX compile features
+[0.747s] -- Detecting CXX compile features - done
+[0.752s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.789s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.789s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.910s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.992s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.004s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.144s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.195s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.422s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.425s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.447s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.448s] -- Looking for pthread.h
+[1.517s] -- Looking for pthread.h - found
+[1.517s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.590s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.590s] -- Looking for pthread_create in pthreads
+[1.655s] -- Looking for pthread_create in pthreads - not found
+[1.655s] -- Looking for pthread_create in pthread
+[1.726s] -- Looking for pthread_create in pthread - found
+[1.727s] -- Found Threads: TRUE  
+[1.909s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.040s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[2.044s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.046s] -- Found trac_ik_lib: 0.1.0 (/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake)
+[2.125s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.238s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.240s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.241s] -- Configured cppcheck include dirs: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/src/kinematic/include
+[2.241s] -- Configured cppcheck exclude dirs and/or files: 
+[2.243s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.243s] -- Configured cpplint exclude dirs and/or files: 
+[2.244s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.245s] -- Added test 'lint_cmake' to check CMake code style
+[2.246s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.248s] -- Added test 'uncrustify' to check C / C++ code style
+[2.248s] -- Configured uncrustify additional arguments: 
+[2.249s] -- Added test 'xmllint' to check XML markup files
+[2.254s] -- Configuring done
+[2.280s] -- Generating done
+[2.283s] -- Build files have been written to: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic
+[2.297s] Invoked command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/src/kinematic -DCMAKE_INSTALL_PREFIX=/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic
+[2.300s] Invoking command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic -- -j4 -l4
+[2.367s] [35m[1mScanning dependencies of target forward_kinematic_node[0m
+[2.368s] [35m[1mScanning dependencies of target inverse_kinematic_node[0m
+[2.503s] [ 25%] [32mBuilding CXX object CMakeFiles/forward_kinematic_node.dir/src/forward_kinematic.cpp.o[0m
+[2.520s] [ 50%] [32mBuilding CXX object CMakeFiles/inverse_kinematic_node.dir/src/inverse_kinematic.cpp.o[0m
+[12.356s] [ 75%] [32m[1mLinking CXX executable forward_kinematic_node[0m
+[12.898s] [ 75%] Built target forward_kinematic_node
+[14.805s] [100%] [32m[1mLinking CXX executable inverse_kinematic_node[0m
+[15.420s] [100%] Built target inverse_kinematic_node
+[15.431s] Invoked command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic -- -j4 -l4
+[15.457s] Invoking command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic
+[15.465s] -- Install configuration: ""
+[15.466s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/lib/kinematic/inverse_kinematic_node
+[15.470s] -- Set runtime path of "/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/lib/kinematic/inverse_kinematic_node" to ""
+[15.470s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/lib/kinematic/forward_kinematic_node
+[15.472s] -- Set runtime path of "/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/lib/kinematic/forward_kinematic_node" to ""
+[15.472s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/include/
+[15.473s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/include//kinematic
+[15.473s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/include//kinematic/inverse_kinematic.hpp
+[15.473s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/include//kinematic/forward_kinematic.hpp
+[15.473s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/launch
+[15.473s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/launch/forward_kinematic.launch.py
+[15.473s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/launch/inverse_kinematic.launch.py
+[15.473s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/ament_index/resource_index/package_run_dependencies/kinematic
+[15.473s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/ament_index/resource_index/parent_prefix_path/kinematic
+[15.473s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/environment/ament_prefix_path.sh
+[15.473s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/environment/ament_prefix_path.dsv
+[15.474s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/environment/path.sh
+[15.474s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/environment/path.dsv
+[15.474s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/local_setup.bash
+[15.474s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/local_setup.sh
+[15.474s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/local_setup.zsh
+[15.474s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/local_setup.dsv
+[15.474s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/package.dsv
+[15.474s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/ament_index/resource_index/packages/kinematic
+[15.475s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/cmake/kinematicConfig.cmake
+[15.475s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/cmake/kinematicConfig-version.cmake
+[15.475s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/package.xml
+[15.478s] Invoked command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/kinematic

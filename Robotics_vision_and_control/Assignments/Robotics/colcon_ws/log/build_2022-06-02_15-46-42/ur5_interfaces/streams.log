@@ -1,0 +1,55 @@
+[0.013s] Invoking command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --build /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces -- -j4 -l4
+[0.041s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.063s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.125s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.185s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.192s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.380s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.561s] CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.561s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.562s]   ur5_interfaces --arguments-file
+[0.562s]   /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces/rosidl_adapter__arguments__ur5_interfaces.json
+[0.562s]   --output-dir
+[0.562s]   /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces/rosidl_adapter/ur5_interfaces
+[0.562s]   --output-file
+[0.562s]   /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces/rosidl_adapter/ur5_interfaces.idls)
+[0.562s]   returned error code 1:
+[0.562s] 
+[0.562s]   Traceback (most recent call last):
+[0.563s] 
+[0.563s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.563s]       return _run_code(code, main_globals, None,
+[0.563s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.563s]       exec(code, run_globals)
+[0.563s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.563s]       sys.exit(main())
+[0.563s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.563s]       abs_idl_file = convert_to_idl(
+[0.563s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[0.564s]       return convert_action_to_idl(
+[0.564s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[0.564s]       action = parse_action_string(package_name, input_file.stem, content)
+[0.564s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 892, in parse_action_string
+[0.564s]       goal_message = parse_message_string(
+[0.564s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[0.564s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.564s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[0.564s]       self.base_type = BaseType(
+[0.564s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[0.564s]       raise InvalidResourceName(
+[0.564s] 
+[0.564s]   rosidl_adapter.parser.InvalidResourceName: 'gripper_move_Goal' is an
+[0.564s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.565s] 
+[0.565s] Call Stack (most recent call first):
+[0.565s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.565s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[0.565s] 
+[0.565s] 
+[0.565s] -- Configuring incomplete, errors occurred!
+[0.565s] See also "/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces/CMakeFiles/CMakeOutput.log".
+[0.569s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.571s] Invoked command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --build /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_interfaces -- -j4 -l4
