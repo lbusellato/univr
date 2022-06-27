@@ -1,0 +1,27 @@
+[ 50%] Built target forward_kinematic_node
+[100%] Built target inverse_kinematic_node
+-- Install configuration: ""
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/lib/kinematic/inverse_kinematic_node
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/lib/kinematic/forward_kinematic_node
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/include/
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/include//kinematic
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/include//kinematic/inverse_kinematic.hpp
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/include//kinematic/forward_kinematic.hpp
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/launch
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/launch/forward_kinematic.launch.py
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/launch/inverse_kinematic.launch.py
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/ament_index/resource_index/package_run_dependencies/kinematic
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/ament_index/resource_index/parent_prefix_path/kinematic
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/environment/path.sh
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/environment/path.dsv
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/local_setup.bash
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/local_setup.sh
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/local_setup.zsh
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/local_setup.dsv
+-- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/package.dsv
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/ament_index/resource_index/packages/kinematic
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/cmake/kinematicConfig.cmake
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/cmake/kinematicConfig-version.cmake
+-- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/kinematic/share/kinematic/package.xml

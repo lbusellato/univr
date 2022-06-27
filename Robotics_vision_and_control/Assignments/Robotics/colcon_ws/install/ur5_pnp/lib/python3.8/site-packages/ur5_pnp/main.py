@@ -7,7 +7,7 @@ def main(args = None):
     rclpy.init(args=args)
 
     # Instantiate the UR5 class
-    manipulatorNode = UR5('joint')
+    manipulatorNode = UR5()
 
     # Spin the node
     rclpy.spin(manipulatorNode)

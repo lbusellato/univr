@@ -14,8 +14,7 @@ test/test_flake8.py
 test/test_pep257.py
 ur5_pnp/__init__.py
 ur5_pnp/main.py
-ur5_pnp/service/__init__.py
-ur5_pnp/service/gripper_client.py
-ur5_pnp/service/gripper_service.py
+ur5_pnp/trajectory/__init__.py
+ur5_pnp/trajectory/p2p.py
 ur5_pnp/ur5/__init__.py
 ur5_pnp/ur5/ur5.py

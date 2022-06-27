@@ -23,3 +23,5 @@ Gi = feedback(Me,1)
 %Gi = minreal(Gi) % Simplify poles and zeros if possible
 
 sisotool(Me)
+
+%margin(C*G) per bode per phase margin e banda

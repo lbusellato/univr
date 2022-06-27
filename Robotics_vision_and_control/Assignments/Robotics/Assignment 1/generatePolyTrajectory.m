@@ -23,15 +23,15 @@ function [Q,V,A,J,S] = generatePolyTrajectory(ti, tf, qi, qf, vi, vf, ai, af, ji
     if nargin == 8
         t = ti; eq5 = subs(a) == ai;
         t = tf; eq6 = subs(a) == af;
-        [A,B]=equationsToMatrix([eq1,eq2,eq3,eq4,eq5,eq6],[a0,a1,a2,a3,a4,a5]);
+        [A,B]=equationsToMatrix([eq1,eq2,eq3,eq4,eq5,eq6],[a0,a1,a2,a3,a4,a5])
     elseif nargin == 10
         t = ti; eq5 = subs(a) == ai;
         t = tf; eq6 = subs(a) == af;
         t = ti; eq7 = subs(j) == ji;
         t = tf; eq8 = subs(j) == jf;
-        [A,B]=equationsToMatrix([eq1,eq2,eq3,eq4,eq5,eq6,eq7,eq8],[a0,a1,a2,a3,a4,a5,a6,a7]);
+        [A,B]=equationsToMatrix([eq1,eq2,eq3,eq4,eq5,eq6,eq7,eq8],[a0,a1,a2,a3,a4,a5,a6,a7])
     else
-        [A,B]=equationsToMatrix([eq1,eq2,eq3,eq4],[a0,a1,a2,a3]);
+        [A,B]=equationsToMatrix([eq1,eq2,eq3,eq4],[a0,a1,a2,a3])
     end
     x = simplify(linsolve(A,B));
     t = ti:0.001:tf;

@@ -7,7 +7,7 @@ setup(
     version='0.0.0',
     packages=[package_name, 
               package_name + '/ur5', 
-              package_name + '/action',],
+              package_name + '/trajectory', ],
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),

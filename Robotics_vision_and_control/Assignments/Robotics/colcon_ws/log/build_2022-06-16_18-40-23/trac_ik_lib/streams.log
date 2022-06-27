@@ -1,0 +1,36 @@
+[0.049s] Invoking command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --build /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib -- -j4 -l4
+[0.200s] [100%] Built target trac_ik_lib
+[0.297s] Invoked command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --build /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib -- -j4 -l4
+[0.402s] Invoking command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --install /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib
+[0.876s] -- Install configuration: ""
+[0.879s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.sh
+[0.880s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.dsv
+[0.880s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include
+[0.881s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik
+[0.881s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/dual_quaternion.h
+[0.882s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/trac_ik.hpp
+[0.882s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/nlopt_ik.hpp
+[0.882s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/visibility_control.hpp
+[0.882s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/math3d.h
+[0.883s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/include/trac_ik/kdl_tl.hpp
+[0.883s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/lib/libtrac_ik_lib.so
+[0.883s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/ament_index/resource_index/package_run_dependencies/trac_ik_lib
+[0.883s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/ament_index/resource_index/parent_prefix_path/trac_ik_lib
+[0.884s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.sh
+[0.884s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.dsv
+[0.884s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/path.sh
+[0.888s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/environment/path.dsv
+[0.888s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.bash
+[0.889s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.sh
+[0.889s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.zsh
+[0.889s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/local_setup.dsv
+[0.889s] -- Installing: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/package.dsv
+[0.889s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/ament_index/resource_index/packages/trac_ik_lib
+[0.889s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport.cmake
+[0.889s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport-noconfig.cmake
+[0.889s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_targets-extras.cmake
+[0.890s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.890s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig.cmake
+[0.890s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig-version.cmake
+[0.890s] -- Up-to-date: /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/trac_ik_lib/share/trac_ik_lib/package.xml
+[0.922s] Invoked command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp:/opt/ros/galactic /usr/bin/cmake --install /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/trac_ik_lib

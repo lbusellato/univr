@@ -1,0 +1,27 @@
+[1.422s] Invoking command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/src/ur5_pnp': PYTHONPATH=/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ur5_pnp build --build-base /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build install --prefix /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp --record /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/install.log --single-version-externally-managed
+[1.982s] running egg_info
+[1.983s] writing ../../build/ur5_pnp/ur5_pnp.egg-info/PKG-INFO
+[1.983s] writing dependency_links to ../../build/ur5_pnp/ur5_pnp.egg-info/dependency_links.txt
+[1.984s] writing entry points to ../../build/ur5_pnp/ur5_pnp.egg-info/entry_points.txt
+[1.984s] writing requirements to ../../build/ur5_pnp/ur5_pnp.egg-info/requires.txt
+[1.984s] writing top-level names to ../../build/ur5_pnp/ur5_pnp.egg-info/top_level.txt
+[2.056s] reading manifest file '../../build/ur5_pnp/ur5_pnp.egg-info/SOURCES.txt'
+[2.062s] writing manifest file '../../build/ur5_pnp/ur5_pnp.egg-info/SOURCES.txt'
+[2.062s] running build
+[2.062s] running build_py
+[2.062s] copying ur5_pnp/main.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp
+[2.063s] copying ur5_pnp/ur5/ur5.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/ur5
+[2.064s] running install
+[2.065s] running install_lib
+[2.068s] copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/main.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp
+[2.069s] copying /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build/lib/ur5_pnp/ur5/ur5.py -> /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/ur5
+[2.070s] byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/main.py to main.cpython-38.pyc
+[2.073s] byte-compiling /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp/ur5/ur5.py to ur5.cpython-38.pyc
+[2.074s] running install_data
+[2.075s] running install_egg_info
+[2.079s] removing '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp-0.0.0-py3.8.egg-info' (and everything under it)
+[2.093s] Copying ../../build/ur5_pnp/ur5_pnp.egg-info to /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages/ur5_pnp-0.0.0-py3.8.egg-info
+[2.097s] running install_scripts
+[2.127s] Installing main script to /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/ur5_pnp
+[2.127s] writing list of installed files to '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/install.log'
+[2.176s] Invoked command in '/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/src/ur5_pnp' returned '0': PYTHONPATH=/home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ur5_pnp build --build-base /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/build install --prefix /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/install/ur5_pnp --record /home/lorenzobusellato/univr/Robotics_vision_and_control/Assignments/Robotics/colcon_ws/build/ur5_pnp/install.log --single-version-externally-managed
